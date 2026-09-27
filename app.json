@@ -1,0 +1,13 @@
+{
+  "name": "TaskFlow",
+  "description": "Modern Small Business Workflow Management SaaS",
+  "env": {
+    "PORT": {
+      "description": "Port on which the service listens",
+      "value": "8080"
+    }
+  },
+  "options": {
+    "allow-unauthenticated": true
+  }
+}
