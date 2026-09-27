@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from '@/components/Layout';
 import Dashboard from '@/pages/Dashboard';
 import Tasks from '@/pages/Tasks';
@@ -10,7 +10,7 @@ import { ToastProvider } from '@/components/ToastProvider';
 function App() {
   return (
     <ToastProvider>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Navigate to="/dashboard" replace />} />
@@ -21,7 +21,7 @@ function App() {
             <Route path="settings" element={<Settings />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </ToastProvider>
   );
 }

@@ -3,6 +3,8 @@
 > **Work organized. Business simplified.**  
 > A high-performance, polished, and responsive digital workflow management platform built specifically for small businesses to replace scattered WhatsApp messages, physical notebooks, phone calls, and spreadsheets.
 
+[![Deploy to Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/yashphalle007/TaskFlow.git)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-success?logo=github)](https://yashphalle007.github.io/TaskFlow/)
 [![React](https://img.shields.io/badge/React-18.2-blue?logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-5.2-purple?logo=vite)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
